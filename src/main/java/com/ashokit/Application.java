@@ -25,6 +25,8 @@ public class Application {
 	public void doProcess() {
 		//logic goes here
 	}
+
+	
 	
 	//HIS-301 changes   
 	public void loadDataToCache() {
