@@ -6,15 +6,16 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class Application {
-	private Map<String,object> cache = new HashMap<String,object>()
+	private Map<String,object> cache = new HashMap<String,object>();
 
 	public static void main(String[] args) {
+		int a=20;
+		int b=30;
 		private static final String REST_URL="https://www.equifax.com/getScores";
 		//SpringApplication.run(Application.class, args);
-    feature-301
-		 
+		
 		ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
-		//change  s for HIS-134
+		//changes for HIS-134
 		int i=10;
 		run.close();
  
